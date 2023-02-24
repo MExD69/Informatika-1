@@ -1,0 +1,17 @@
+body {
+    background-color:azure;
+}
+h1 {
+   color: blue;
+}
+h2 {
+    font-size: 120%
+}
+p{
+    color: darkslategrey;
+}
+table, th, tr, td {
+    padding: 4px;
+    text-align: middle;
+    border: 1px solid black;
+}
