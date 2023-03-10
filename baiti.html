@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body> 
+        <p>Aprēķināt cik daudz informācijas var lejupielādēt</p>
+        <p><input type="text" name="sekundes" id="sekundes">sekundēs, ja interneta ātrums ir 25 Mbps.</p>
+        <p>Atbilde</p>
+        <p><input type="text" name="rez" id="rez"><input type="radio" id="KiB" name="KiB" value="KiB" onclick="rez.value=sekundes.value*1000*0.125*25*0.9765625"><label for="KiB">KiB</label> 
+            <input type="radio" id="KB" name="KB" onclick="rez.value=sekundes.value*1000*0.125*25"><label for="KB">KB</label></p>
+           <input type="reset" value="Reset">
+    </body>
+</html>
